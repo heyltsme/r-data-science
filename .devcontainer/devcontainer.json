@@ -12,7 +12,15 @@
       ],
       "settings": {
         "r.plot.view": "browser",
-        "r.bracketedPaste": true
+        "r.bracketedPaste": true,
+        "gemini.inlineSuggest.enableAuto": false,
+        "editor.inlineSuggest.enabled": false,
+        "remote.extensions.disabledExtensionIds": [
+            "googlecloudtools.cloudcode",
+            "google.gemini-code-assist",
+            "google.geminicodeassist",
+            "GitHub.copilot-chat"
+        ]
       }
     }
   }
